@@ -114,3 +114,8 @@ Fri Mar 13 05:44:58 UTC 2026 | ASSISTANT: To install vim, you typically use your
 Fri Mar 13 05:44:58 UTC 2026 | CMD: sudo apt update && sudo apt install vim
 Fri Mar 13 05:44:58 UTC 2026 | OUTPUT: sudo: apt: command not found
 --------------------------------------
+Fri Mar 13 05:54:36 UTC 2026 | USER: add user chetan with password chetan07
+Fri Mar 13 05:54:36 UTC 2026 | ASSISTANT: This command will add a new user named 'chetan', create their home directory, and set their password to 'chetan07'. Please be aware that specifying a password directly in the command line can be logged in shell history. For interactive use, running `sudo useradd -m chetan` followed by `sudo passwd chetan` and typing the password when prompted is generally more secure.
+Fri Mar 13 05:54:36 UTC 2026 | CMD: sudo useradd -m chetan && echo "chetan07" | sudo passwd --stdin chetan
+Fri Mar 13 05:54:36 UTC 2026 | OUTPUT: BAD PASSWORD: The password contains the user name in some form
+--------------------------------------
