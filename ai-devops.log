@@ -1,0 +1,4 @@
+Fri Mar 13 04:28:25 UTC 2026 | PROMPT: hi | CMD: `echo "hi"`
+Fri Mar 13 04:28:25 UTC 2026 | OUTPUT: ./ai-assistant.sh: line 64: hi: command not found
+Fri Mar 13 04:28:50 UTC 2026 | PROMPT: install nmap | CMD: sudo apt install -y nmap
+Fri Mar 13 04:28:50 UTC 2026 | OUTPUT: sudo: apt: command not found
